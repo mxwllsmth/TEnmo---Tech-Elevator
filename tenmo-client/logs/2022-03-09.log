@@ -1,0 +1,2 @@
+2022-03-09T22:50:07.2817764 401 : [{"timestamp":"2022-03-10T03:50:07.227+00:00","status":401,"error":"Unauthorized","message":"Full authentication is required to access this resource","path":"/balance"}]
+2022-03-09T23:07:31.3873258 401 : [{"timestamp":"2022-03-10T04:07:31.350+00:00","status":401,"error":"Unauthorized","message":"Full authentication is required to access this resource","path":"/balance"}]

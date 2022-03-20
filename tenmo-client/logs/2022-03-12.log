@@ -1,0 +1,14 @@
+2022-03-12T16:24:43.7599596 Cannot invoke "com.techelevator.tenmo.model.AuthenticatedUser.getToken()" because "this.currentUser" is null
+2022-03-12T16:25:43.823946 Cannot invoke "com.techelevator.tenmo.model.AuthenticatedUser.getToken()" because "this.currentUser" is null
+2022-03-12T18:29:03.5856542 401 : [no body]
+2022-03-12T20:18:31.4787077 404 : [{"timestamp":"2022-03-13T01:18:31.447+00:00","status":404,"error":"Not Found","message":"Transfer not found!","path":"/transfer/0"}]
+2022-03-12T20:19:42.8397983 404 : [{"timestamp":"2022-03-13T01:19:42.811+00:00","status":404,"error":"Not Found","message":"No message available","path":"/transfer"}]
+2022-03-12T20:25:21.5647482 500 : [{"timestamp":"2022-03-13T01:25:21.548+00:00","status":500,"error":"Internal Server Error","message":"PreparedStatementCallback; SQL [BEGIN TRANSACTION;INSERT INTO transfer (transfer_type_id, transfer_... (838 bytes)]
+2022-03-12T20:25:27.2765319 500 : [{"timestamp":"2022-03-13T01:25:27.276+00:00","status":500,"error":"Internal Server Error","message":"StatementCallback; uncategorized SQLException for SQL [SELECT transfer_id, transfer_type_id, transf... (550 bytes)]
+2022-03-12T20:26:22.7599623 401 : [no body]
+2022-03-12T20:27:40.9289994 401 : [no body]
+2022-03-12T20:29:56.7915575 401 : [no body]
+2022-03-12T20:30:38.6517833 401 : [no body]
+2022-03-12T20:31:14.619253 401 : [no body]
+2022-03-12T20:31:31.6964915 400 : [{"timestamp":"2022-03-13T01:31:31.696+00:00","status":400,"error":"Bad Request","message":"User registration failed.","path":"/register"}]
+2022-03-12T20:50:37.6267374 404 : [{"timestamp":"2022-03-13T01:50:37.608+00:00","status":404,"error":"Not Found","message":"Transfer not found!","path":"/transfer/0"}]

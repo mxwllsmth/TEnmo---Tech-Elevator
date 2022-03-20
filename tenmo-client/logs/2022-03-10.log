@@ -1,0 +1,21 @@
+2022-03-10T10:23:04.5628972 401 : [{"timestamp":"2022-03-10T15:23:04.498+00:00","status":401,"error":"Unauthorized","message":"Full authentication is required to access this resource","path":"/balance"}]
+2022-03-10T10:25:46.427261 401 : [{"timestamp":"2022-03-10T15:25:46.367+00:00","status":401,"error":"Unauthorized","message":"Full authentication is required to access this resource","path":"/balance"}]
+2022-03-10T11:10:34.9416801 500 : [{"timestamp":"2022-03-10T16:10:34.907+00:00","status":500,"error":"Internal Server Error","message":"Incorrect result size: expected 1, actual 0","path":"/users/1001"}]
+2022-03-10T11:15:04.4351597 Error while extracting response for type [class com.techelevator.tenmo.model.Account] and content type [application/json]; nested exception is org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize instance of `com.techelevator.tenmo.model.Account` out of START_ARRAY token; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `com.techelevator.tenmo.model.Account` out of START_ARRAY token
+ at [Source: (PushbackInputStream); line: 1, column: 1]
+2022-03-10T11:16:51.6394655 Error while extracting response for type [class com.techelevator.tenmo.model.Account] and content type [application/json]; nested exception is org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize instance of `com.techelevator.tenmo.model.Account` out of START_ARRAY token; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `com.techelevator.tenmo.model.Account` out of START_ARRAY token
+ at [Source: (PushbackInputStream); line: 1, column: 1]
+2022-03-10T11:20:39.1227318 Error while extracting response for type [class com.techelevator.tenmo.model.Account] and content type [application/json]; nested exception is org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize instance of `com.techelevator.tenmo.model.Account` out of START_ARRAY token; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `com.techelevator.tenmo.model.Account` out of START_ARRAY token
+ at [Source: (PushbackInputStream); line: 1, column: 1]
+2022-03-10T11:48:59.36745 404 : [{"timestamp":"2022-03-10T16:48:59.333+00:00","status":404,"error":"Not Found","message":"No message available","path":"/users/1001/balance"}]
+2022-03-10T11:53:59.4351133 401 : [{"timestamp":"2022-03-10T16:53:59.385+00:00","status":401,"error":"Unauthorized","message":"Full authentication is required to access this resource","path":"/balance"}]
+2022-03-10T11:54:54.7008601 401 : [{"timestamp":"2022-03-10T16:54:54.651+00:00","status":401,"error":"Unauthorized","message":"Full authentication is required to access this resource","path":"/balance"}]
+2022-03-10T12:03:33.3930315 401 : [{"timestamp":"2022-03-10T17:03:33.354+00:00","status":401,"error":"Unauthorized","message":"Full authentication is required to access this resource","path":"/balance"}]
+2022-03-10T15:37:03.0145073 Cannot invoke "com.techelevator.tenmo.model.AuthenticatedUser.getToken()" because "this.currentUser" is null
+2022-03-10T15:37:03.0145073 Cannot invoke "com.techelevator.tenmo.model.AuthenticatedUser.getToken()" because "this.currentUser" is null
+2022-03-10T15:38:35.0611384 Cannot invoke "com.techelevator.tenmo.model.AuthenticatedUser.getToken()" because "this.currentUser" is null
+2022-03-10T15:38:35.0611384 Cannot invoke "com.techelevator.tenmo.model.AuthenticatedUser.getToken()" because "this.currentUser" is null
+2022-03-10T15:38:35.0611384 Cannot invoke "com.techelevator.tenmo.model.AuthenticatedUser.getToken()" because "this.currentUser" is null
+2022-03-10T18:09:12.8712253 Cannot invoke "com.techelevator.tenmo.model.AuthenticatedUser.getToken()" because "this.currentUser" is null
+2022-03-10T18:09:12.8877433 Cannot invoke "com.techelevator.tenmo.model.AuthenticatedUser.getToken()" because "this.currentUser" is null
+2022-03-10T18:09:12.8877433 Cannot invoke "com.techelevator.tenmo.model.AuthenticatedUser.getToken()" because "this.currentUser" is null
